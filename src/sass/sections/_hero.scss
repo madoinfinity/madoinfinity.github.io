@@ -29,25 +29,53 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 5.2rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
 
     @include respond(tab-land) {
-      font-size: 4rem;
+      font-size: 3.71rem;
     }
     @include respond(tab-port) {
-      font-size: 3.6rem;
+      font-size: 3.34rem;
       text-align: center;
     }
     @include respond(phone) {
-      font-size: 3.5rem;
+      font-size: 3.25rem;
       line-height: 1.5;
     }
     @include respond(phone-xs) {
-      font-size: 2.8rem;
+      font-size: 2.6rem;
     }
+  }
+  .education-line {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.6;
+    display: block;
+    margin-top: 1rem;
+    color: lighten($dark-blue-text, 5%); /* Further lighten for more gradient */
+    font-family: Montserrat, sans-serif; /* Apply the found font family */
+    font-style: italic;
+    text-align: left;
+    
+    font-style: italic;
+    text-align: left;
+  } 
+  @include respond(tab-land) {
+    font-size: 2.5rem;
+  }
+  @include respond(tab-port) {
+    font-size: 2.25rem;
+    text-align: center;
+  }
+  @include respond(phone) {
+    font-size: 2.19rem;
+    line-height: 1.5;
+  }
+  @include respond(phone-xs) {
+    font-size: 1.75rem;
   }
 
   .hero-cta {
