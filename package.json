@@ -5,12 +5,10 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel src/index.html --no-cache",
     "build": "parcel build src/index.html --public-url ./ --dist-dir docs --no-source-maps",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs",
-    "clean": "rm -rf .parcel-cache dist docs"
-  },
+    "clean": "rm -rf .parcel-cache docs dist"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madoinfinity/madoinfinity.github.io"
