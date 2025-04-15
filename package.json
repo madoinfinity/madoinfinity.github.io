@@ -1,9 +1,15 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
-  "source": "src/index.html",
+  "source": "index.html",  
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./ --dist-dir docs",
+    "deploy": "gh-pages -d docs",
+    "clean": "rm -rf .parcel-cache dist docs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madoinfinity/madoinfinity.github.io"
