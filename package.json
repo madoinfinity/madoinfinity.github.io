@@ -2,13 +2,13 @@
   "name": "simplefolio",
   "version": "1.0.1",
   "private": true,
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "...",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --no-cache",
     "build": "parcel build src/index.html --public-url ./ --dist-dir docs --no-source-maps",
     "clean": "rm -rf .parcel-cache docs dist"
-  }
+  },  // ← Fixed comma here
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madoinfinity/madoinfinity.github.io"
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/cobiwave/simplefolio/issues"
   },
-  "homepage": "https://madoinfinity.github.io"
+  "homepage": "https://madoinfinity.github.io",  // ← Added comma here
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
