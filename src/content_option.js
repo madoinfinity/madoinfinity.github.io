@@ -1,144 +1,114 @@
-const logotext = "JOHN";
+const logotext = "Emad";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Muhammad Emad Sarwar",
+    description: "I am Muhammad Emad Sarwar",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I am Muhammad Emad Sarwar, A BS-CS student at LUMS",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I am interested in machine learning related domains",
+        second: "I am an LLM enthusiast ",
+        third: "I enjoy developing MERN applications",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am passionate about software engineering and machine learning related domains. I enjoy learning about emerging technologies, particularly in the world of large language models (LLMs) and AI. Drawing meaningful extrapolations from data to aid decision-making is a process I find enjoyable. I am especially interested in understanding model behavior, exploring and uncovering patterns in data to derive impactful insights.",
+    your_img_url: "/my_image.jpeg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "Hi, I'm Muhammad Emad Sarwar. As a computer scientist, I'm passionate about solving complex problems and creating insightful applications. My work is driven by a strong belief in empathy - understanding the human side of any challenge - and the power of collaboration to bring diverse ideas together effectively. Foundational to all of this is integrity; I'm committed to working transparently and building trust. Beyond my professional interests, I enjoy staying active and engaged. Whether it's diving into a good book, or keeping up with my favorite sports teams, I find these activities recharge my creativity and focus",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Intern",
+        where: "CSaLT - LUMS",
+        date: "Jan 2024 - Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Summer Research Intern",
+        where: "Networks and Systems group - LUMS",
+        date: "Summer 2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Teaching Assistant - Data Structures",
+        where: "LUMS",
+        date: "Spring 2024",
     },
 ];
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 95,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "MERN",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
+        name: "Machine Learning",
         value: 85,
     },
+    {
+        name: "Data Science",
+        value: 80,
+    },
+    {
+        name: "LLMs",
+        value: 75,
+    },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
+// const services = [{
+//         title: "Data Science",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+//     {
+//         title: "Mobile Apps",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+//     {
+//         title: "Wordpress Design",
+//         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+//     },
+// ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/400x500.jpg",
+        description: "MigraineAid is an AI-driven Android app that collects user and sensor data to develop machine learning models to predict migraines in advance.",
+        link: "https://github.com/madoinfinity/MigraineAid-Scripts",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/400x500.jpg",
+        description: "This multi-agent AutoML framework leverages LLM agents to simplify converting business challenges into actionable, data-driven insights through automated code generation, analysis, and reporting.",
+        link: "https://github.com/madoinfinity/Auto-ML-Project",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/400x500.jpg",
+        description: "Developed a RAG chatbot using LangChain, Mixtral 7B, and a university handbook vector store. It functions as a dynamic research assistant, adapting its workflow based on user queries for context-aware answers.",
+        link: "https://github.com/madoinfinity/LLMs-RAG",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/400x500.jpg",
+        description: "Compared multiple machine learning models and text representations for toxic comment classification on Jigsaw data. The study found complex models performed best (~93% accuracy) and emphasized the importance of considering model complexity, data balance, and embedding quality.",
+        link: "https://github.com/madoinfinity/ML-Toxicity-Proj",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/400x500.jpg",
+        description: "To help Pakistani tourists find fair prices and managers improve profitability, this project analyzed Booking.com hotel data. A Random Forest predicts prices, while a cost-aware linear regression model estimates pseudo-profits, revealing pricing inefficiencies and key profit drivers, though based on assumed costs.",
+        link: "https://github.com/Jawamegamind/PakStay-Advisor",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/400x500.jpg",
+        description: "The Auction App is a full-stack MERN web application that enables users to create, browse, and participate in live auctions. It features user authentication, real-time bidding, and dynamic auction updates. Users can manage their profiles and track created profiles. Data is stored through MongoDB using Mongoose schemas.",
+        link: "https://github.com/madoinfinity/Mern-Auction",
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
+] 
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "madoinfinity12@gmail.com",
+    YOUR_FONE: "0335-491-2770",
+    description: "You can also contact me on my alternate emails : 25100086@lums.edu.pk, madogames@hotmail.com ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +117,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/madoinfinity",
+    facebook: "https://www.facebook.com/emad.sarwar",
+    linkedin: "https://www.linkedin.com/in/muhammad-emad-sarwar-b1288124b/",
 };
 export {
     meta,
@@ -158,7 +127,6 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
