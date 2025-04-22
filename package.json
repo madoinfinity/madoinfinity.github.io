@@ -2,6 +2,7 @@
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://madoinfinity.github.io/portfolio", // <-- **ADDED THIS LINE**
     "dependencies": {
         "bootstrap": "^5.2.3",
         "emailjs-com": "^3.2.0",
@@ -11,18 +12,22 @@
         "react-helmet-async": "^1.0.7",
         "react-icons": "^4.1.0",
         "react-router-dom": "^6.6.2",
-        "react-scripts": "^5.0.1",
+        "react-scripts": "^5.0.1", // Assumes you use npm with react-scripts
         "react-transition-group": "^4.4.2",
         "typewriter-effect": "^2.18.2",
         "web-vitals": "^3.1.1"
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "react-scripts build", // Standard build script
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build && cp build/index.html build/404.html",
-        "deploy": "gh-pages -d build"
+        // Your predeploy script - use npm OR yarn depending on what you use
+        // Using npm:
+        "predeploy": "npm run build && cp build/index.html build/404.html",
+        // OR if you primarily use yarn:
+        // "predeploy": "yarn build && cp build/index.html build/404.html",
+        "deploy": "gh-pages -d build" // This looks correct
     },
     "eslintConfig": {
         "extends": [
@@ -41,5 +46,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": { // <-- **ADDED/CONFIRMED**
+        "gh-pages": "^x.x.x" // Make sure gh-pages is listed here after install
     }
 }
